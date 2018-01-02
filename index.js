@@ -1,8 +1,9 @@
 'use strict';
 const webpack = require('webpack');
+const hasFlag = require('has-flag');
 
 if (!process.env.NODE_ENV) {
-	process.env.NODE_ENV = 'development';
+	process.env.NODE_ENV = hasFlag('p') ? 'production' : 'development';
 }
 
 module.exports = class NodeEnvPlugin {

@@ -49,7 +49,7 @@ $ npm install node-env-webpack-plugin
 
 ## API
 
-Sets `process.env.NODE_ENV` in the Node.js process to `development` at import-time if it's not defined.
+Sets `process.env.NODE_ENV` in the Node.js process to `development` at import-time if it's not defined, or `production` if webpack is run with `webpack -p`.
 
 ### NodeEnvPlugin()
 

@@ -28,6 +28,9 @@
 		"development",
 		"production"
 	],
+	"dependencies": {
+		"has-flag": "^3.0.0"
+	},
 	"devDependencies": {
 		"ava": "*",
 		"pify": "^3.0.0",
