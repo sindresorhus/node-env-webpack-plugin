@@ -1,41 +1,41 @@
 {
-	"name": "node-env-webpack-plugin",
-	"version": "1.0.0",
-	"description": "Simplified `NODE_ENV` handling with webpack",
-	"license": "MIT",
-	"repository": "sindresorhus/node-env-webpack-plugin",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
-	},
-	"engines": {
-		"node": ">=6"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"index.js"
-	],
-	"keywords": [
-		"webpack-plugin",
-		"webpack",
-		"node",
-		"node-env",
-		"env",
-		"environment",
-		"development",
-		"production"
-	],
-	"dependencies": {
-		"has-flag": "^3.0.0"
-	},
-	"devDependencies": {
-		"ava": "*",
-		"pify": "^3.0.0",
-		"tempy": "^0.2.1",
-		"webpack": "^3.10.0",
-		"xo": "*"
-	}
+  "name": "node-env-webpack-plugin",
+  "version": "1.1.0",
+  "description": "Simplified `NODE_ENV` handling with webpack",
+  "license": "MIT",
+  "repository": "sindresorhus/node-env-webpack-plugin",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack-plugin",
+    "webpack",
+    "node",
+    "node-env",
+    "env",
+    "environment",
+    "development",
+    "production"
+  ],
+  "dependencies": {
+    "has-flag": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "pify": "^3.0.0",
+    "tempy": "^0.2.1",
+    "webpack": "^3.10.0",
+    "xo": "*"
+  }
 }
