@@ -1,6 +1,6 @@
 {
 	"name": "node-env-webpack-plugin",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Simplified `NODE_ENV` handling with webpack",
 	"license": "MIT",
 	"repository": "sindresorhus/node-env-webpack-plugin",
