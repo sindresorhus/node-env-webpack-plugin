@@ -1,4 +1,4 @@
-# node-env-webpack-plugin [![Build Status](https://travis-ci.org/sindresorhus/node-env-webpack-plugin.svg?branch=master)](https://travis-ci.org/sindresorhus/node-env-webpack-plugin)
+# node-env-webpack-plugin
 
 > Simplified `NODE_ENV` handling with [webpack](https://webpack.js.org)
 
